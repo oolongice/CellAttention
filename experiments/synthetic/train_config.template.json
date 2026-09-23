@@ -1,0 +1,21 @@
+{
+  "sample_ids": null,
+  "device_index": 0,
+  "model": {
+    "d_model": 48,
+    "d_ff": 96,
+    "n_heads": 4,
+    "n_layers": 2,
+    "dropout": 0.05
+  },
+  "training": {
+    "epochs": 110,
+    "batch_size": 64,
+    "learning_rate": 0.001,
+    "mask_probability": 0.25,
+    "shuffle": true,
+    "max_cells_per_epoch": 500,
+    "epoch_sampling": "stratified",
+    "minimum_cells_per_sample": 0
+  }
+}
