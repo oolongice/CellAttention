@@ -88,6 +88,10 @@ Set `embedding_dimensions` to the model's `d_model`. Choose the spatial distance
 
 Omit `--inputs-only` to also infer `reconstruction.csv`, `residuals.csv`, and `cell_embeddings.csv` from `model.mpk`. Existing CSV files in the checkpoint directory are kept.
 
+## Reproduction data
+
+The [CellAttention paper dataset on Zenodo](https://doi.org/10.5281/zenodo.23173939) contains preprocessed inputs, training and analysis configurations, and trained models for the synthetic, spatial CRISPR, Xenium liver, Slide-seqV2, MOSTA, and 3D weMERFISH workflows. Download and extract the archive for a dataset, then follow the README inside it to restore expression CSV files and run the analysis.
+
 ## Dataset workflows
 
 [synthetic](experiments/synthetic/README.md) · [benchmark](experiments/benchmark/README.md) · [spatial CRISPR](experiments/crispr/README.md) · [Xenium liver](experiments/xenium/README.md) · [Slide-seqV2 hippocampus](experiments/slideseqv2/README.md) · [MOSTA](experiments/mosta/README.md) · [3D weMERFISH](experiments/merfish/README.md)
