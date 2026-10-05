@@ -1,0 +1,122 @@
+{
+  "checkpoint_dir": "${WORKDIR}/model/transformer",
+  "coordinates": "${WORKDIR}/data/preprocessed/spatial_coordinates.csv",
+  "annotations": "${WORKDIR}/data/preprocessed/evaluation_cell_groups.txt",
+  "embedding_dimensions": 48,
+  "receiver_group_count": 6,
+  "receiver_group_clustering_method": "truncated_whitened_pca_kmeans",
+  "receiver_group_pca_components": 6,
+  "maximum_fit_cells": 40000,
+  "length_scale": 0.1,
+  "maximum_distance": 0.1,
+  "minimum_distance": 0.0005,
+  "maximum_neighbors": 9999,
+  "target_block_size": 256,
+  "receiver_field_mask": {
+    "mode": "hard_expression_exclusion",
+    "expression_threshold": 0.0
+  },
+  "source_target_scores": "${WORKDIR}/analysis/results/source_target_scores.csv",
+  "output_dir": "${WORKDIR}/analysis/cell_cell_edges",
+  "top_fraction": 0.5,
+  "maximum_edges_per_triplet": 1000,
+  "residual_clip": 3.0,
+  "require_direction_support": true,
+  "triplets": [
+    {
+      "cluster": 1,
+      "source_gene": "Fgd2",
+      "target_gene": "Tshz2"
+    },
+    {
+      "cluster": 1,
+      "source_gene": "Snhg11",
+      "target_gene": "Meg3"
+    },
+    {
+      "cluster": 1,
+      "source_gene": "Wipf3",
+      "target_gene": "Hpca"
+    },
+    {
+      "cluster": 2,
+      "source_gene": "Gldc",
+      "target_gene": "Ddn"
+    },
+    {
+      "cluster": 2,
+      "source_gene": "Wipf3",
+      "target_gene": "Hpca"
+    },
+    {
+      "cluster": 2,
+      "source_gene": "1500015O10Rik",
+      "target_gene": "Ttr"
+    },
+    {
+      "cluster": 3,
+      "source_gene": "Tmem88b",
+      "target_gene": "Mbp"
+    },
+    {
+      "cluster": 3,
+      "source_gene": "Osbpl1a",
+      "target_gene": "Ddn"
+    },
+    {
+      "cluster": 3,
+      "source_gene": "Enpp6",
+      "target_gene": "Mobp"
+    },
+    {
+      "cluster": 4,
+      "source_gene": "Kcnj13",
+      "target_gene": "Ttr"
+    },
+    {
+      "cluster": 4,
+      "source_gene": "Igf2",
+      "target_gene": "Enpp2"
+    },
+    {
+      "cluster": 4,
+      "source_gene": "Esam",
+      "target_gene": "Nnat"
+    },
+    {
+      "cluster": 5,
+      "source_gene": "Tmem88b",
+      "target_gene": "Mbp"
+    },
+    {
+      "cluster": 5,
+      "source_gene": "0610043K17Rik",
+      "target_gene": "Ddn"
+    },
+    {
+      "cluster": 5,
+      "source_gene": "Tyro3",
+      "target_gene": "Kif5a"
+    },
+    {
+      "cluster": 5,
+      "source_gene": "Cldn11",
+      "target_gene": "Plp1"
+    },
+    {
+      "cluster": 6,
+      "source_gene": "Wfs1",
+      "target_gene": "Ddn"
+    },
+    {
+      "cluster": 6,
+      "source_gene": "Cplx3",
+      "target_gene": "Kif5a"
+    },
+    {
+      "cluster": 6,
+      "source_gene": "Enpp2",
+      "target_gene": "Ttr"
+    }
+  ]
+}

@@ -1,0 +1,602 @@
+{
+  "checkpoint_dir": "${WORKDIR}/model/transformer",
+  "coordinates": "${WORKDIR}/data/preprocessed/spatial_coordinates.csv",
+  "annotations": "${WORKDIR}/data/preprocessed/evaluation_cell_groups.txt",
+  "embedding_dimensions": 48,
+  "receiver_group_count": 6,
+  "receiver_group_clustering_method": "truncated_whitened_pca_kmeans",
+  "receiver_group_pca_components": 6,
+  "maximum_fit_cells": 40000,
+  "length_scale": 0.1,
+  "maximum_distance": 0.1,
+  "minimum_distance": 0.0005,
+  "maximum_neighbors": 9999,
+  "target_block_size": 256,
+  "receiver_field_mask": {
+    "mode": "hard_expression_exclusion",
+    "expression_threshold": 0.0
+  },
+  "source_target_scores": "${WORKDIR}/analysis/results/source_target_scores.csv",
+  "output_dir": "${WORKDIR}/analysis/cell_cell_edges_expanded",
+  "top_fraction": 0.5,
+  "maximum_edges_per_triplet": 1000,
+  "residual_clip": 3.0,
+  "require_direction_support": true,
+  "triplets": [
+    {
+      "cluster": 1,
+      "source_gene": "Pvalb",
+      "target_gene": "Tshz2"
+    },
+    {
+      "cluster": 1,
+      "source_gene": "Itgam",
+      "target_gene": "Tshz2"
+    },
+    {
+      "cluster": 1,
+      "source_gene": "Snhg11",
+      "target_gene": "Meg3"
+    },
+    {
+      "cluster": 1,
+      "source_gene": "Npy2r",
+      "target_gene": "Meg3"
+    },
+    {
+      "cluster": 1,
+      "source_gene": "Wipf3",
+      "target_gene": "Hpca"
+    },
+    {
+      "cluster": 1,
+      "source_gene": "Spink8",
+      "target_gene": "Hpca"
+    },
+    {
+      "cluster": 1,
+      "source_gene": "Mylk",
+      "target_gene": "Hs3st4"
+    },
+    {
+      "cluster": 1,
+      "source_gene": "Pdgfb",
+      "target_gene": "Hs3st4"
+    },
+    {
+      "cluster": 1,
+      "source_gene": "Dio2",
+      "target_gene": "Mef2c"
+    },
+    {
+      "cluster": 1,
+      "source_gene": "Plxna1",
+      "target_gene": "Mef2c"
+    },
+    {
+      "cluster": 1,
+      "source_gene": "Pdzph1",
+      "target_gene": "Kif5a"
+    },
+    {
+      "cluster": 1,
+      "source_gene": "Nxph3",
+      "target_gene": "Kif5a"
+    },
+    {
+      "cluster": 1,
+      "source_gene": "Npy2r",
+      "target_gene": "Cpne4"
+    },
+    {
+      "cluster": 1,
+      "source_gene": "Mylk",
+      "target_gene": "Cpne4"
+    },
+    {
+      "cluster": 1,
+      "source_gene": "Thbs4",
+      "target_gene": "Igfbp4"
+    },
+    {
+      "cluster": 1,
+      "source_gene": "Drc7",
+      "target_gene": "Igfbp4"
+    },
+    {
+      "cluster": 1,
+      "source_gene": "Ctgf",
+      "target_gene": "Rprm"
+    },
+    {
+      "cluster": 1,
+      "source_gene": "Cplx3",
+      "target_gene": "Rprm"
+    },
+    {
+      "cluster": 1,
+      "source_gene": "Ctgf",
+      "target_gene": "3110035E14Rik"
+    },
+    {
+      "cluster": 1,
+      "source_gene": "Cplx3",
+      "target_gene": "3110035E14Rik"
+    },
+    {
+      "cluster": 2,
+      "source_gene": "Gldc",
+      "target_gene": "Ddn"
+    },
+    {
+      "cluster": 2,
+      "source_gene": "Thbs4",
+      "target_gene": "Ddn"
+    },
+    {
+      "cluster": 2,
+      "source_gene": "Spink8",
+      "target_gene": "Hpca"
+    },
+    {
+      "cluster": 2,
+      "source_gene": "Gabra5",
+      "target_gene": "Hpca"
+    },
+    {
+      "cluster": 2,
+      "source_gene": "Kcne2",
+      "target_gene": "Ttr"
+    },
+    {
+      "cluster": 2,
+      "source_gene": "Kcnj13",
+      "target_gene": "Ttr"
+    },
+    {
+      "cluster": 2,
+      "source_gene": "Tyro3",
+      "target_gene": "Kif5a"
+    },
+    {
+      "cluster": 2,
+      "source_gene": "Prox1",
+      "target_gene": "Kif5a"
+    },
+    {
+      "cluster": 2,
+      "source_gene": "Itgb4",
+      "target_gene": "Mbp"
+    },
+    {
+      "cluster": 2,
+      "source_gene": "Unc5b",
+      "target_gene": "Mbp"
+    },
+    {
+      "cluster": 2,
+      "source_gene": "Thbs4",
+      "target_gene": "Fth1"
+    },
+    {
+      "cluster": 2,
+      "source_gene": "Kif5a",
+      "target_gene": "Fth1"
+    },
+    {
+      "cluster": 2,
+      "source_gene": "Pvalb",
+      "target_gene": "Tshz2"
+    },
+    {
+      "cluster": 2,
+      "source_gene": "Nrep",
+      "target_gene": "Tshz2"
+    },
+    {
+      "cluster": 2,
+      "source_gene": "Snhg11",
+      "target_gene": "Meg3"
+    },
+    {
+      "cluster": 2,
+      "source_gene": "Gldc",
+      "target_gene": "Meg3"
+    },
+    {
+      "cluster": 2,
+      "source_gene": "Itgb4",
+      "target_gene": "Mobp"
+    },
+    {
+      "cluster": 2,
+      "source_gene": "Unc5b",
+      "target_gene": "Mobp"
+    },
+    {
+      "cluster": 2,
+      "source_gene": "Meg3",
+      "target_gene": "Snhg11"
+    },
+    {
+      "cluster": 2,
+      "source_gene": "Npy2r",
+      "target_gene": "Snhg11"
+    },
+    {
+      "cluster": 3,
+      "source_gene": "Itgb4",
+      "target_gene": "Mbp"
+    },
+    {
+      "cluster": 3,
+      "source_gene": "Enpp6",
+      "target_gene": "Mbp"
+    },
+    {
+      "cluster": 3,
+      "source_gene": "Gldc",
+      "target_gene": "Ddn"
+    },
+    {
+      "cluster": 3,
+      "source_gene": "Itgam",
+      "target_gene": "Ddn"
+    },
+    {
+      "cluster": 3,
+      "source_gene": "Enpp6",
+      "target_gene": "Mobp"
+    },
+    {
+      "cluster": 3,
+      "source_gene": "Itgb4",
+      "target_gene": "Mobp"
+    },
+    {
+      "cluster": 3,
+      "source_gene": "Enpp6",
+      "target_gene": "Kif5a"
+    },
+    {
+      "cluster": 3,
+      "source_gene": "Itgb4",
+      "target_gene": "Plp1"
+    },
+    {
+      "cluster": 3,
+      "source_gene": "Enpp6",
+      "target_gene": "Plp1"
+    },
+    {
+      "cluster": 3,
+      "source_gene": "1500015O10Rik",
+      "target_gene": "Ttr"
+    },
+    {
+      "cluster": 3,
+      "source_gene": "Folr1",
+      "target_gene": "Ttr"
+    },
+    {
+      "cluster": 3,
+      "source_gene": "Enpp6",
+      "target_gene": "Fth1"
+    },
+    {
+      "cluster": 3,
+      "source_gene": "Itgb4",
+      "target_gene": "Fth1"
+    },
+    {
+      "cluster": 3,
+      "source_gene": "Spink8",
+      "target_gene": "Hpca"
+    },
+    {
+      "cluster": 3,
+      "source_gene": "Gabra5",
+      "target_gene": "Hpca"
+    },
+    {
+      "cluster": 3,
+      "source_gene": "Tmem88b",
+      "target_gene": "Qdpr"
+    },
+    {
+      "cluster": 3,
+      "source_gene": "Prr5l",
+      "target_gene": "Qdpr"
+    },
+    {
+      "cluster": 3,
+      "source_gene": "Nrep",
+      "target_gene": "Tshz2"
+    },
+    {
+      "cluster": 3,
+      "source_gene": "Lamp5",
+      "target_gene": "Tshz2"
+    },
+    {
+      "cluster": 4,
+      "source_gene": "Kcnj13",
+      "target_gene": "Ttr"
+    },
+    {
+      "cluster": 4,
+      "source_gene": "Kl",
+      "target_gene": "Ttr"
+    },
+    {
+      "cluster": 4,
+      "source_gene": "Igf2",
+      "target_gene": "Enpp2"
+    },
+    {
+      "cluster": 4,
+      "source_gene": "Folr1",
+      "target_gene": "Enpp2"
+    },
+    {
+      "cluster": 4,
+      "source_gene": "Thbs4",
+      "target_gene": "Nnat"
+    },
+    {
+      "cluster": 4,
+      "source_gene": "Inpp5d",
+      "target_gene": "Nnat"
+    },
+    {
+      "cluster": 4,
+      "source_gene": "Nckap1l",
+      "target_gene": "Igfbp4"
+    },
+    {
+      "cluster": 4,
+      "source_gene": "Snhg11",
+      "target_gene": "Plp1"
+    },
+    {
+      "cluster": 4,
+      "source_gene": "Myh11",
+      "target_gene": "Plp1"
+    },
+    {
+      "cluster": 4,
+      "source_gene": "Meg3",
+      "target_gene": "Snhg11"
+    },
+    {
+      "cluster": 4,
+      "source_gene": "Map1b",
+      "target_gene": "Snhg11"
+    },
+    {
+      "cluster": 4,
+      "source_gene": "Itga9",
+      "target_gene": "Cplx1"
+    },
+    {
+      "cluster": 4,
+      "source_gene": "Itga11",
+      "target_gene": "Cplx1"
+    },
+    {
+      "cluster": 4,
+      "source_gene": "Gap43",
+      "target_gene": "Syn2"
+    },
+    {
+      "cluster": 4,
+      "source_gene": "Kdr",
+      "target_gene": "Kif5a"
+    },
+    {
+      "cluster": 4,
+      "source_gene": "Ccm2l",
+      "target_gene": "Kif5a"
+    },
+    {
+      "cluster": 5,
+      "source_gene": "Tmem88b",
+      "target_gene": "Mbp"
+    },
+    {
+      "cluster": 5,
+      "source_gene": "Ermn",
+      "target_gene": "Mbp"
+    },
+    {
+      "cluster": 5,
+      "source_gene": "Gldc",
+      "target_gene": "Ddn"
+    },
+    {
+      "cluster": 5,
+      "source_gene": "0610043K17Rik",
+      "target_gene": "Ddn"
+    },
+    {
+      "cluster": 5,
+      "source_gene": "Tyro3",
+      "target_gene": "Kif5a"
+    },
+    {
+      "cluster": 5,
+      "source_gene": "Slc14a1",
+      "target_gene": "Kif5a"
+    },
+    {
+      "cluster": 5,
+      "source_gene": "Cldn11",
+      "target_gene": "Plp1"
+    },
+    {
+      "cluster": 5,
+      "source_gene": "Mag",
+      "target_gene": "Plp1"
+    },
+    {
+      "cluster": 5,
+      "source_gene": "Unc5b",
+      "target_gene": "Mobp"
+    },
+    {
+      "cluster": 5,
+      "source_gene": "Tmem88b",
+      "target_gene": "Mobp"
+    },
+    {
+      "cluster": 5,
+      "source_gene": "Cnp",
+      "target_gene": "Enpp2"
+    },
+    {
+      "cluster": 5,
+      "source_gene": "Mal",
+      "target_gene": "Enpp2"
+    },
+    {
+      "cluster": 5,
+      "source_gene": "1500015O10Rik",
+      "target_gene": "Ttr"
+    },
+    {
+      "cluster": 5,
+      "source_gene": "Kcnj13",
+      "target_gene": "Ttr"
+    },
+    {
+      "cluster": 5,
+      "source_gene": "Pvalb",
+      "target_gene": "Tshz2"
+    },
+    {
+      "cluster": 5,
+      "source_gene": "Nrep",
+      "target_gene": "Tshz2"
+    },
+    {
+      "cluster": 5,
+      "source_gene": "Gjc1",
+      "target_gene": "Tnnt1"
+    },
+    {
+      "cluster": 5,
+      "source_gene": "Vipr2",
+      "target_gene": "Tnnt1"
+    },
+    {
+      "cluster": 5,
+      "source_gene": "Enpp6",
+      "target_gene": "Mal"
+    },
+    {
+      "cluster": 5,
+      "source_gene": "Itgb4",
+      "target_gene": "Mal"
+    },
+    {
+      "cluster": 6,
+      "source_gene": "Gldc",
+      "target_gene": "Ddn"
+    },
+    {
+      "cluster": 6,
+      "source_gene": "2010300C02Rik",
+      "target_gene": "Ddn"
+    },
+    {
+      "cluster": 6,
+      "source_gene": "Crhbp",
+      "target_gene": "Kif5a"
+    },
+    {
+      "cluster": 6,
+      "source_gene": "Tyro3",
+      "target_gene": "Kif5a"
+    },
+    {
+      "cluster": 6,
+      "source_gene": "Kcnj13",
+      "target_gene": "Ttr"
+    },
+    {
+      "cluster": 6,
+      "source_gene": "Kcne2",
+      "target_gene": "Ttr"
+    },
+    {
+      "cluster": 6,
+      "source_gene": "Tmem88b",
+      "target_gene": "Mbp"
+    },
+    {
+      "cluster": 6,
+      "source_gene": "Itgb4",
+      "target_gene": "Mbp"
+    },
+    {
+      "cluster": 6,
+      "source_gene": "Pvalb",
+      "target_gene": "Tshz2"
+    },
+    {
+      "cluster": 6,
+      "source_gene": "Fgd2",
+      "target_gene": "Tshz2"
+    },
+    {
+      "cluster": 6,
+      "source_gene": "Snhg11",
+      "target_gene": "Meg3"
+    },
+    {
+      "cluster": 6,
+      "source_gene": "Gldc",
+      "target_gene": "Meg3"
+    },
+    {
+      "cluster": 6,
+      "source_gene": "Gjc1",
+      "target_gene": "Prkcd"
+    },
+    {
+      "cluster": 6,
+      "source_gene": "Tnnt1",
+      "target_gene": "Prkcd"
+    },
+    {
+      "cluster": 6,
+      "source_gene": "Spink8",
+      "target_gene": "Hpca"
+    },
+    {
+      "cluster": 6,
+      "source_gene": "Wipf3",
+      "target_gene": "Hpca"
+    },
+    {
+      "cluster": 6,
+      "source_gene": "Itgb4",
+      "target_gene": "Mobp"
+    },
+    {
+      "cluster": 6,
+      "source_gene": "Mcam",
+      "target_gene": "Mobp"
+    },
+    {
+      "cluster": 6,
+      "source_gene": "Meg3",
+      "target_gene": "Snhg11"
+    },
+    {
+      "cluster": 6,
+      "source_gene": "Chrnb3",
+      "target_gene": "Snhg11"
+    }
+  ]
+}

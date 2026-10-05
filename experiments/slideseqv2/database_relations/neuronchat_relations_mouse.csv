@@ -1,0 +1,337 @@
+database,ligand_components,receptor_components
+NeuronChat:Neuropeptide:ligand-receptor,Vip,Vipr1
+NeuronChat:Neuropeptide:ligand-receptor,Vip,Vipr2
+NeuronChat:Neuropeptide:ligand-receptor,Npy,Npy1r
+NeuronChat:Neuropeptide:ligand-receptor,Npy,Npy2r
+NeuronChat:Neuropeptide:ligand-receptor,Npy,Npy5r
+NeuronChat:Neuropeptide:ligand-receptor,Sst,Sstr1
+NeuronChat:Neuropeptide:ligand-receptor,Sst,Sstr2
+NeuronChat:Neuropeptide:ligand-receptor,Sst,Sstr3
+NeuronChat:Neuropeptide:ligand-receptor,Sst,Sstr4
+NeuronChat:Neuropeptide:ligand-receptor,Penk,Oprd1
+NeuronChat:Neuropeptide:ligand-receptor,Penk,Oprm1
+NeuronChat:Neuropeptide:ligand-receptor,Tac2,Tacr3
+NeuronChat:Neuropeptide:ligand-receptor,Cck,Cckbr
+NeuronChat:Neuropeptide:ligand-receptor,Crh,Crhr1
+NeuronChat:Neuropeptide:ligand-receptor,Crh,Crhr2
+NeuronChat:Neuropeptide:ligand-receptor,Tac1,Tacr1
+NeuronChat:Neuropeptide:ligand-receptor,Pdyn,Oprd1
+NeuronChat:Neuropeptide:ligand-receptor,Pdyn,Oprk1
+NeuronChat:Neuropeptide:ligand-receptor,Pdyn,Oprm1
+NeuronChat:Neuropeptide:ligand-receptor,Cort,Sstr1
+NeuronChat:Neuropeptide:ligand-receptor,Cort,Sstr2
+NeuronChat:Neuropeptide:ligand-receptor,Cort,Sstr3
+NeuronChat:Neuropeptide:ligand-receptor,Cort,Sstr4
+NeuronChat:Neuropeptide:ligand-receptor,Pthlh,Pth1r
+NeuronChat:Neuropeptide:ligand-receptor,Pnoc,Oprl1
+NeuronChat:Neuropeptide:ligand-receptor,Adcyap1,Adcyap1r1
+NeuronChat:Neuropeptide:ligand-receptor,Adcyap1,Vipr1
+NeuronChat:Neuropeptide:ligand-receptor,Adcyap1,Vipr2
+NeuronChat:Neuropeptide:ligand-receptor,Trh,Trhr
+NeuronChat:Neuropeptide:ligand-receptor,Trh,Trhr2
+NeuronChat:Neuropeptide:ligand-receptor,Grp,Grpr
+NeuronChat:Neuropeptide:ligand-receptor,Nmb,Nmbr
+NeuronChat:Neuropeptide:ligand-receptor,Nts,Ntsr1
+NeuronChat:Neuropeptide:ligand-receptor,Nts,Ntsr2
+NeuronChat:Neuropeptide:ligand-receptor,Rln1,Rxfp1
+NeuronChat:Neuropeptide:ligand-receptor,Rln1,Rxfp2
+NeuronChat:Neuropeptide:ligand-receptor,Rln1,Rxfp3
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a6,Grin1
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a7,Grin1
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a8,Grin1
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a6,Grin2a
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a7,Grin2a
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a8,Grin2a
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a6,Grin2b
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a7,Grin2b
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a8,Grin2b
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a6,Grin2c
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a7,Grin2c
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a8,Grin2c
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a6,Grin2d
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a7,Grin2d
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a8,Grin2d
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a6,Grin3a
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a7,Grin3a
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a8,Grin3a
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a6,Grin3b
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a7,Grin3b
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a8,Grin3b
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a6,Gria1
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a7,Gria1
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a8,Gria1
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a6,Gria2
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a7,Gria2
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a8,Gria2
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a6,Gria3
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a7,Gria3
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a8,Gria3
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a6,Gria4
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a7,Gria4
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a8,Gria4
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a6,Grik1
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a7,Grik1
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a8,Grik1
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a6,Grik2
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a7,Grik2
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a8,Grik2
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a6,Grik3
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a7,Grik3
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a8,Grik3
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a6,Grik4
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a7,Grik4
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a8,Grik4
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a6,Grik5
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a7,Grik5
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a8,Grik5
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a6,Grm1
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a7,Grm1
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a8,Grm1
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a6,Grm5
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a7,Grm5
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a8,Grm5
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a6,Grm4
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a7,Grm4
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a8,Grm4
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a6,Grm6
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a7,Grm6
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a8,Grm6
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a6,Grm7
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a7,Grm7
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a8,Grm7
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a6,Grm8
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a7,Grm8
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a8,Grm8
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a6,Grm2
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a7,Grm2
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a8,Grm2
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a6,Grm3
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a7,Grm3
+NeuronChat:Neurotransmitter:ligand-receptor,Gls;Slc17a8,Grm3
+NeuronChat:Synaptic adhesion molecule:ligand-receptor,Nrxn1,Nlgn1
+NeuronChat:Synaptic adhesion molecule:ligand-receptor,Nrxn2,Nlgn2
+NeuronChat:Synaptic adhesion molecule:ligand-receptor,Nrxn3,Nlgn3
+NeuronChat:Neurotransmitter:ligand-receptor,Gad1;Slc32a1,Gabra1
+NeuronChat:Neurotransmitter:ligand-receptor,Gad2;Slc32a1,Gabra1
+NeuronChat:Neurotransmitter:ligand-receptor,Gad1;Slc32a1,Gabra2
+NeuronChat:Neurotransmitter:ligand-receptor,Gad2;Slc32a1,Gabra2
+NeuronChat:Neurotransmitter:ligand-receptor,Gad1;Slc32a1,Gabra3
+NeuronChat:Neurotransmitter:ligand-receptor,Gad2;Slc32a1,Gabra3
+NeuronChat:Neurotransmitter:ligand-receptor,Gad1;Slc32a1,Gabra4
+NeuronChat:Neurotransmitter:ligand-receptor,Gad2;Slc32a1,Gabra4
+NeuronChat:Neurotransmitter:ligand-receptor,Gad1;Slc32a1,Gabra5
+NeuronChat:Neurotransmitter:ligand-receptor,Gad2;Slc32a1,Gabra5
+NeuronChat:Neurotransmitter:ligand-receptor,Gad1;Slc32a1,Gabra6
+NeuronChat:Neurotransmitter:ligand-receptor,Gad2;Slc32a1,Gabra6
+NeuronChat:Neurotransmitter:ligand-receptor,Gad1;Slc32a1,Gabrb1
+NeuronChat:Neurotransmitter:ligand-receptor,Gad2;Slc32a1,Gabrb1
+NeuronChat:Neurotransmitter:ligand-receptor,Gad1;Slc32a1,Gabrb2
+NeuronChat:Neurotransmitter:ligand-receptor,Gad2;Slc32a1,Gabrb2
+NeuronChat:Neurotransmitter:ligand-receptor,Gad1;Slc32a1,Gabrb3
+NeuronChat:Neurotransmitter:ligand-receptor,Gad2;Slc32a1,Gabrb3
+NeuronChat:Neurotransmitter:ligand-receptor,Gad1;Slc32a1,Gabrg1
+NeuronChat:Neurotransmitter:ligand-receptor,Gad2;Slc32a1,Gabrg1
+NeuronChat:Neurotransmitter:ligand-receptor,Gad1;Slc32a1,Gabrg2
+NeuronChat:Neurotransmitter:ligand-receptor,Gad2;Slc32a1,Gabrg2
+NeuronChat:Neurotransmitter:ligand-receptor,Gad1;Slc32a1,Gabrg3
+NeuronChat:Neurotransmitter:ligand-receptor,Gad2;Slc32a1,Gabrg3
+NeuronChat:Neurotransmitter:ligand-receptor,Gad1;Slc32a1,Gabbr1
+NeuronChat:Neurotransmitter:ligand-receptor,Gad2;Slc32a1,Gabbr1
+NeuronChat:Neurotransmitter:ligand-receptor,Gad1;Slc32a1,Gabbr2
+NeuronChat:Neurotransmitter:ligand-receptor,Gad2;Slc32a1,Gabbr2
+NeuronChat:Gap junction protein:ligand-receptor,Gja1,Gja1
+NeuronChat:Gap junction protein:ligand-receptor,Gja3,Gja3
+NeuronChat:Gap junction protein:ligand-receptor,Gja4,Gja4
+NeuronChat:Gap junction protein:ligand-receptor,Gja5,Gja5
+NeuronChat:Gap junction protein:ligand-receptor,Gja6,Gja6
+NeuronChat:Gap junction protein:ligand-receptor,Gja8,Gja8
+NeuronChat:Gap junction protein:ligand-receptor,Gja10,Gja10
+NeuronChat:Gap junction protein:ligand-receptor,Gjb1,Gjb1
+NeuronChat:Gap junction protein:ligand-receptor,Gjb2,Gjb2
+NeuronChat:Gap junction protein:ligand-receptor,Gjb3,Gjb3
+NeuronChat:Gap junction protein:ligand-receptor,Gjb4,Gjb4
+NeuronChat:Gap junction protein:ligand-receptor,Gjb5,Gjb5
+NeuronChat:Gap junction protein:ligand-receptor,Gjb6,Gjb6
+NeuronChat:Gap junction protein:ligand-receptor,Gjc1,Gjc1
+NeuronChat:Gap junction protein:ligand-receptor,Gjc2,Gjc2
+NeuronChat:Gap junction protein:ligand-receptor,Gjc3,Gjc3
+NeuronChat:Gap junction protein:ligand-receptor,Gjd2,Gjd2
+NeuronChat:Gap junction protein:ligand-receptor,Gjd3,Gjd3
+NeuronChat:Gap junction protein:ligand-receptor,Gjd4,Gjd4
+NeuronChat:Gap junction protein:ligand-receptor,Gje1,Gje1
+NeuronChat:Neurotransmitter:ligand-receptor,Chat;Slc18a3,Chrna1
+NeuronChat:Neurotransmitter:ligand-receptor,Chat;Slc18a3,Chrna2
+NeuronChat:Neurotransmitter:ligand-receptor,Chat;Slc18a3,Chrna3
+NeuronChat:Neurotransmitter:ligand-receptor,Chat;Slc18a3,Chrna4
+NeuronChat:Neurotransmitter:ligand-receptor,Chat;Slc18a3,Chrna5
+NeuronChat:Neurotransmitter:ligand-receptor,Chat;Slc18a3,Chrna6
+NeuronChat:Neurotransmitter:ligand-receptor,Chat;Slc18a3,Chrna7
+NeuronChat:Neurotransmitter:ligand-receptor,Chat;Slc18a3,Chrna9
+NeuronChat:Neurotransmitter:ligand-receptor,Chat;Slc18a3,Chrna10
+NeuronChat:Neurotransmitter:ligand-receptor,Chat;Slc18a3,Chrnb1
+NeuronChat:Neurotransmitter:ligand-receptor,Chat;Slc18a3,Chrnb2
+NeuronChat:Neurotransmitter:ligand-receptor,Chat;Slc18a3,Chrnb3
+NeuronChat:Neurotransmitter:ligand-receptor,Chat;Slc18a3,Chrnb4
+NeuronChat:Neurotransmitter:ligand-receptor,Chat;Slc18a3,Chrnd
+NeuronChat:Neurotransmitter:ligand-receptor,Chat;Slc18a3,Chrne
+NeuronChat:Neurotransmitter:ligand-receptor,Chat;Slc18a3,Chrng
+NeuronChat:Neurotransmitter:ligand-receptor,Chat;Slc18a3,Chrm1
+NeuronChat:Neurotransmitter:ligand-receptor,Chat;Slc18a3,Chrm2
+NeuronChat:Neurotransmitter:ligand-receptor,Chat;Slc18a3,Chrm3
+NeuronChat:Neurotransmitter:ligand-receptor,Chat;Slc18a3,Chrm4
+NeuronChat:Neurotransmitter:ligand-receptor,Chat;Slc18a3,Chrm5
+NeuronChat:Neurotransmitter:ligand degradation,Chat;Slc18a3,Ache
+NeuronChat:Neurotransmitter:ligand-receptor,Shmt1;Slc32a1,Glra1
+NeuronChat:Neurotransmitter:ligand-receptor,Shmt2;Slc32a1,Glra1
+NeuronChat:Neurotransmitter:ligand-receptor,Shmt1;Slc32a1,Glra2
+NeuronChat:Neurotransmitter:ligand-receptor,Shmt2;Slc32a1,Glra2
+NeuronChat:Neurotransmitter:ligand-receptor,Shmt1;Slc32a1,Glra3
+NeuronChat:Neurotransmitter:ligand-receptor,Shmt2;Slc32a1,Glra3
+NeuronChat:Neurotransmitter:ligand-receptor,Shmt1;Slc32a1,Glra4
+NeuronChat:Neurotransmitter:ligand-receptor,Shmt2;Slc32a1,Glra4
+NeuronChat:Neurotransmitter:ligand-receptor,Shmt1;Slc32a1,Glrb
+NeuronChat:Neurotransmitter:ligand-receptor,Shmt2;Slc32a1,Glrb
+NeuronChat:Neurotransmitter:ligand uptake,Shmt1;Slc32a1,Slc6a9
+NeuronChat:Neurotransmitter:ligand uptake,Shmt2;Slc32a1,Slc6a9
+NeuronChat:Neurotransmitter:ligand uptake,Shmt1;Slc32a1,Slc6a5
+NeuronChat:Neurotransmitter:ligand uptake,Shmt2;Slc32a1,Slc6a5
+NeuronChat:Neurotransmitter:ligand-receptor,Tph1;Ddc;Slc18a1,Htr1a
+NeuronChat:Neurotransmitter:ligand-receptor,Tph1;Ddc;Slc18a2,Htr1a
+NeuronChat:Neurotransmitter:ligand-receptor,Tph2;Ddc;Slc18a1,Htr1a
+NeuronChat:Neurotransmitter:ligand-receptor,Tph2;Ddc;Slc18a2,Htr1a
+NeuronChat:Neurotransmitter:ligand-receptor,Tph1;Ddc;Slc18a1,Htr1b
+NeuronChat:Neurotransmitter:ligand-receptor,Tph1;Ddc;Slc18a2,Htr1b
+NeuronChat:Neurotransmitter:ligand-receptor,Tph2;Ddc;Slc18a1,Htr1b
+NeuronChat:Neurotransmitter:ligand-receptor,Tph2;Ddc;Slc18a2,Htr1b
+NeuronChat:Neurotransmitter:ligand-receptor,Tph1;Ddc;Slc18a1,Htr1d
+NeuronChat:Neurotransmitter:ligand-receptor,Tph1;Ddc;Slc18a2,Htr1d
+NeuronChat:Neurotransmitter:ligand-receptor,Tph2;Ddc;Slc18a1,Htr1d
+NeuronChat:Neurotransmitter:ligand-receptor,Tph2;Ddc;Slc18a2,Htr1d
+NeuronChat:Neurotransmitter:ligand-receptor,Tph1;Ddc;Slc18a1,Htr1e
+NeuronChat:Neurotransmitter:ligand-receptor,Tph1;Ddc;Slc18a2,Htr1e
+NeuronChat:Neurotransmitter:ligand-receptor,Tph2;Ddc;Slc18a1,Htr1e
+NeuronChat:Neurotransmitter:ligand-receptor,Tph2;Ddc;Slc18a2,Htr1e
+NeuronChat:Neurotransmitter:ligand-receptor,Tph1;Ddc;Slc18a1,Htr1f
+NeuronChat:Neurotransmitter:ligand-receptor,Tph1;Ddc;Slc18a2,Htr1f
+NeuronChat:Neurotransmitter:ligand-receptor,Tph2;Ddc;Slc18a1,Htr1f
+NeuronChat:Neurotransmitter:ligand-receptor,Tph2;Ddc;Slc18a2,Htr1f
+NeuronChat:Neurotransmitter:ligand-receptor,Tph1;Ddc;Slc18a1,Htr2a
+NeuronChat:Neurotransmitter:ligand-receptor,Tph1;Ddc;Slc18a2,Htr2a
+NeuronChat:Neurotransmitter:ligand-receptor,Tph2;Ddc;Slc18a1,Htr2a
+NeuronChat:Neurotransmitter:ligand-receptor,Tph2;Ddc;Slc18a2,Htr2a
+NeuronChat:Neurotransmitter:ligand-receptor,Tph1;Ddc;Slc18a1,Htr2b
+NeuronChat:Neurotransmitter:ligand-receptor,Tph1;Ddc;Slc18a2,Htr2b
+NeuronChat:Neurotransmitter:ligand-receptor,Tph2;Ddc;Slc18a1,Htr2b
+NeuronChat:Neurotransmitter:ligand-receptor,Tph2;Ddc;Slc18a2,Htr2b
+NeuronChat:Neurotransmitter:ligand-receptor,Tph1;Ddc;Slc18a1,Htr2c
+NeuronChat:Neurotransmitter:ligand-receptor,Tph1;Ddc;Slc18a2,Htr2c
+NeuronChat:Neurotransmitter:ligand-receptor,Tph2;Ddc;Slc18a1,Htr2c
+NeuronChat:Neurotransmitter:ligand-receptor,Tph2;Ddc;Slc18a2,Htr2c
+NeuronChat:Neurotransmitter:ligand-receptor,Tph1;Ddc;Slc18a1,Htr3a
+NeuronChat:Neurotransmitter:ligand-receptor,Tph1;Ddc;Slc18a2,Htr3a
+NeuronChat:Neurotransmitter:ligand-receptor,Tph2;Ddc;Slc18a1,Htr3a
+NeuronChat:Neurotransmitter:ligand-receptor,Tph2;Ddc;Slc18a2,Htr3a
+NeuronChat:Neurotransmitter:ligand-receptor,Tph1;Ddc;Slc18a1,Htr3b
+NeuronChat:Neurotransmitter:ligand-receptor,Tph1;Ddc;Slc18a2,Htr3b
+NeuronChat:Neurotransmitter:ligand-receptor,Tph2;Ddc;Slc18a1,Htr3b
+NeuronChat:Neurotransmitter:ligand-receptor,Tph2;Ddc;Slc18a2,Htr3b
+NeuronChat:Neurotransmitter:ligand-receptor,Tph1;Ddc;Slc18a1,Htr4
+NeuronChat:Neurotransmitter:ligand-receptor,Tph1;Ddc;Slc18a2,Htr4
+NeuronChat:Neurotransmitter:ligand-receptor,Tph2;Ddc;Slc18a1,Htr4
+NeuronChat:Neurotransmitter:ligand-receptor,Tph2;Ddc;Slc18a2,Htr4
+NeuronChat:Neurotransmitter:ligand-receptor,Tph1;Ddc;Slc18a1,Htr5a
+NeuronChat:Neurotransmitter:ligand-receptor,Tph1;Ddc;Slc18a2,Htr5a
+NeuronChat:Neurotransmitter:ligand-receptor,Tph2;Ddc;Slc18a1,Htr5a
+NeuronChat:Neurotransmitter:ligand-receptor,Tph2;Ddc;Slc18a2,Htr5a
+NeuronChat:Neurotransmitter:ligand-receptor,Tph1;Ddc;Slc18a1,Htr6
+NeuronChat:Neurotransmitter:ligand-receptor,Tph1;Ddc;Slc18a2,Htr6
+NeuronChat:Neurotransmitter:ligand-receptor,Tph2;Ddc;Slc18a1,Htr6
+NeuronChat:Neurotransmitter:ligand-receptor,Tph2;Ddc;Slc18a2,Htr6
+NeuronChat:Neurotransmitter:ligand-receptor,Tph1;Ddc;Slc18a1,Htr7
+NeuronChat:Neurotransmitter:ligand-receptor,Tph1;Ddc;Slc18a2,Htr7
+NeuronChat:Neurotransmitter:ligand-receptor,Tph2;Ddc;Slc18a1,Htr7
+NeuronChat:Neurotransmitter:ligand-receptor,Tph2;Ddc;Slc18a2,Htr7
+NeuronChat:Neurotransmitter:ligand uptake,Tph1;Ddc;Slc18a1,Slc6a4
+NeuronChat:Neurotransmitter:ligand uptake,Tph1;Ddc;Slc18a2,Slc6a4
+NeuronChat:Neurotransmitter:ligand uptake,Tph2;Ddc;Slc18a1,Slc6a4
+NeuronChat:Neurotransmitter:ligand uptake,Tph2;Ddc;Slc18a2,Slc6a4
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Slc18a1,Drd1
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Slc18a2,Drd1
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Slc18a1,Drd5
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Slc18a2,Drd5
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Slc18a1,Drd2
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Slc18a2,Drd2
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Slc18a1,Drd3
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Slc18a2,Drd3
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Slc18a1,Drd4
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Slc18a2,Drd4
+NeuronChat:Neurotransmitter:ligand uptake,Th;Ddc;Slc18a1,Slc6a3
+NeuronChat:Neurotransmitter:ligand uptake,Th;Ddc;Slc18a2,Slc6a3
+NeuronChat:Neurotransmitter:ligand degradation,Th;Ddc;Slc18a1,Comt
+NeuronChat:Neurotransmitter:ligand degradation,Th;Ddc;Slc18a2,Comt
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Dbh;Pnmt;Slc18a1,Adra1a
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Dbh;Pnmt;Slc18a2,Adra1a
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Dbh;Pnmt;Slc18a1,Adra1b
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Dbh;Pnmt;Slc18a2,Adra1b
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Dbh;Pnmt;Slc18a1,Adra1d
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Dbh;Pnmt;Slc18a2,Adra1d
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Dbh;Pnmt;Slc18a1,Adra2a
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Dbh;Pnmt;Slc18a2,Adra2a
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Dbh;Pnmt;Slc18a1,Adra2b
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Dbh;Pnmt;Slc18a2,Adra2b
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Dbh;Pnmt;Slc18a1,Adra2c
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Dbh;Pnmt;Slc18a2,Adra2c
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Dbh;Pnmt;Slc18a1,Adrb1
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Dbh;Pnmt;Slc18a2,Adrb1
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Dbh;Pnmt;Slc18a1,Adrb2
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Dbh;Pnmt;Slc18a2,Adrb2
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Dbh;Pnmt;Slc18a1,Adrb3
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Dbh;Pnmt;Slc18a2,Adrb3
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Dbh;Slc18a1,Adra1a
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Dbh;Slc18a2,Adra1a
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Dbh;Slc18a1,Adra1b
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Dbh;Slc18a2,Adra1b
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Dbh;Slc18a1,Adra1d
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Dbh;Slc18a2,Adra1d
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Dbh;Slc18a1,Adra2a
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Dbh;Slc18a2,Adra2a
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Dbh;Slc18a1,Adra2b
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Dbh;Slc18a2,Adra2b
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Dbh;Slc18a1,Adra2c
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Dbh;Slc18a2,Adra2c
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Dbh;Slc18a1,Adrb1
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Dbh;Slc18a2,Adrb1
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Dbh;Slc18a1,Adrb2
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Dbh;Slc18a2,Adrb2
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Dbh;Slc18a1,Adrb3
+NeuronChat:Neurotransmitter:ligand-receptor,Th;Ddc;Dbh;Slc18a2,Adrb3
+NeuronChat:Neurotransmitter:ligand uptake,Th;Ddc;Dbh;Slc18a1,Slc6a2
+NeuronChat:Neurotransmitter:ligand uptake,Th;Ddc;Dbh;Slc18a2,Slc6a2
+NeuronChat:Neurotransmitter:ligand degradation,Th;Ddc;Dbh;Slc18a1,Comt
+NeuronChat:Neurotransmitter:ligand degradation,Th;Ddc;Dbh;Slc18a2,Comt
+NeuronChat:Gas:gas-effector,Hmox1,Gucy1b1
+NeuronChat:Gas:gas-effector,Hmox2,Gucy1b1
+NeuronChat:Gas:gas-effector,Hmox1,Gucy1b2
+NeuronChat:Gas:gas-effector,Hmox2,Gucy1b2
+NeuronChat:Gas:gas-effector,Hmox1,Gucy1a1
+NeuronChat:Gas:gas-effector,Hmox2,Gucy1a1
+NeuronChat:Gas:gas-effector,Hmox1,Gucy1a2
+NeuronChat:Gas:gas-effector,Hmox2,Gucy1a2
+NeuronChat:Gas:gas-effector,Nos1,Gucy1b1
+NeuronChat:Gas:gas-effector,Nos2,Gucy1b1
+NeuronChat:Gas:gas-effector,Nos3,Gucy1b1
+NeuronChat:Gas:gas-effector,Nos1,Gucy1b2
+NeuronChat:Gas:gas-effector,Nos2,Gucy1b2
+NeuronChat:Gas:gas-effector,Nos3,Gucy1b2
+NeuronChat:Gas:gas-effector,Nos1,Gucy1a1
+NeuronChat:Gas:gas-effector,Nos2,Gucy1a1
+NeuronChat:Gas:gas-effector,Nos3,Gucy1a1
+NeuronChat:Gas:gas-effector,Nos1,Gucy1a2
+NeuronChat:Gas:gas-effector,Nos2,Gucy1a2
+NeuronChat:Gas:gas-effector,Nos3,Gucy1a2
+NeuronChat:Synaptic adhesion molecule:ligand-receptor,Nrxn2,Nlgn1
+NeuronChat:Synaptic adhesion molecule:ligand-receptor,Nrxn3,Nlgn1
+NeuronChat:Synaptic adhesion molecule:ligand-receptor,Nrxn1,Nlgn2
+NeuronChat:Synaptic adhesion molecule:ligand-receptor,Nrxn3,Nlgn2
+NeuronChat:Synaptic adhesion molecule:ligand-receptor,Nrxn1,Nlgn3
+NeuronChat:Synaptic adhesion molecule:ligand-receptor,Nrxn2,Nlgn3

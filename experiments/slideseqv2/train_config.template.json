@@ -1,0 +1,26 @@
+{
+  "expression_matrix": "${WORKDIR}/data/preprocessed/expression.mtx",
+  "cell_ids": "${WORKDIR}/data/preprocessed/cell_ids.txt",
+  "gene_ids": "${WORKDIR}/data/preprocessed/gene_ids.txt",
+  "output_dir": "${WORKDIR}/model/transformer",
+  "device_index": 0,
+  "model": {
+    "d_model": 48,
+    "d_ff": 96,
+    "n_heads": 4,
+    "n_layers": 2,
+    "dropout": 0.05
+  },
+  "training": {
+    "epochs": 60,
+    "batch_size": 128,
+    "learning_rate": 0.001,
+    "mask_probability": 0.25,
+    "seed": 168,
+    "shuffle": true,
+    "inference_mask_chunk_size": 32,
+    "max_cells_per_epoch": 0,
+    "epoch_sampling": "random",
+    "minimum_cells_per_sample": 0
+  }
+}
