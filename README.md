@@ -84,6 +84,9 @@ Set `embedding_dimensions` to the model's `d_model`. Choose the spatial distance
 | `select_receiver_group_count` | `target/release/select_receiver_group_count CONFIG.json` | Spatial cross-validation scores for candidate receiver-group counts |
 | `export_cell_cell_interactions` | `target/release/export_cell_cell_interactions CONFIG.json` | Sender–receiver cell edges for selected source–target relations |
 | `validate_selected_triplets` | `target/release/validate_selected_triplets CONFIG.json` | Spatial holdout and stability results for selected relations |
+| `export_checkpoint_matrices` | `target/release/export_checkpoint_matrices TRAIN_CONFIG.json CHECKPOINT_DIR --inputs-only` | Regenerate `raw_expression.csv` and `standardized_expression.csv` from the preprocessed matrix |
+
+Omit `--inputs-only` to also infer `reconstruction.csv`, `residuals.csv`, and `cell_embeddings.csv` from `model.mpk`. Existing CSV files in the checkpoint directory are kept.
 
 ## Dataset workflows
 

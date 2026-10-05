@@ -232,6 +232,73 @@ pub fn train_from_config(config: &RunConfig) -> Result<(), String> {
     Ok(())
 }
 
+/// Recreate the matrix exports of an existing checkpoint without training again.
+pub fn export_checkpoint_matrices(
+    config: &RunConfig,
+    checkpoint_dir: &Path,
+    inputs_only: bool,
+) -> Result<(), String> {
+    let data = load_and_standardize(
+        &config.expression_matrix,
+        &config.cell_ids,
+        &config.gene_ids,
+    )?;
+    for (name, expected) in [
+        ("cell_ids.txt", &data.cell_ids),
+        ("gene_ids.txt", &data.gene_ids),
+    ] {
+        let actual = read_ids(checkpoint_dir.join(name))?;
+        if actual != *expected {
+            return Err(format!(
+                "checkpoint {name} does not match preprocessed input"
+            ));
+        }
+    }
+    write_matrix_if_absent(checkpoint_dir.join("raw_expression.csv"), &data.raw_matrix)?;
+    write_matrix_if_absent(
+        checkpoint_dir.join("standardized_expression.csv"),
+        &data.matrix,
+    )?;
+    if inputs_only {
+        return Ok(());
+    }
+    if !checkpoint_dir.join("model.mpk").is_file() {
+        return Err(format!(
+            "missing checkpoint: {}",
+            checkpoint_dir.join("model.mpk").display()
+        ));
+    }
+    let device = device(config.device_index);
+    let model =
+        CellGeneTransformer::<InferenceBackend>::new(data.gene_ids.len(), &config.model, &device)
+            .load_file(
+                checkpoint_dir.join("model"),
+                &CompactRecorder::new(),
+                &device,
+            )
+            .map_err(|error| format!("failed to load checkpoint: {error}"))?;
+    let (reconstruction, embeddings) = infer_in_batches(
+        &model,
+        &data.matrix,
+        config.training.batch_size.max(1),
+        config.model.d_model,
+        config.training.inference_mask_chunk_size,
+        &device,
+    );
+    let residuals = &data.matrix - &reconstruction;
+    write_matrix_if_absent(checkpoint_dir.join("reconstruction.csv"), &reconstruction)?;
+    write_matrix_if_absent(checkpoint_dir.join("residuals.csv"), &residuals)?;
+    write_matrix_if_absent(checkpoint_dir.join("cell_embeddings.csv"), &embeddings)?;
+    Ok(())
+}
+
+fn write_matrix_if_absent(path: impl AsRef<Path>, matrix: &Array2<f32>) -> Result<(), String> {
+    if !path.as_ref().exists() {
+        write_matrix(path, matrix)?;
+    }
+    Ok(())
+}
+
 fn epoch_cell_order(
     cells: usize,
     seed: u64,
