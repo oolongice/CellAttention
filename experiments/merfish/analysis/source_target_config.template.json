@@ -1,0 +1,23 @@
+{
+  "dataset": "wemfish_6s_e1_3d",
+  "checkpoint_dir": "${WORKDIR}/model/transformer",
+  "coordinates": "${WORKDIR}/data/preprocessed/spatial_coordinates.csv",
+  "coordinate_dimensions": 3,
+  "annotations": "${WORKDIR}/data/preprocessed/evaluation_cell_groups.txt",
+  "output_dir": "${WORKDIR}/analysis/results",
+  "embedding_dimensions": 48,
+  "receiver_group_count": 8,
+  "maximum_fit_cells": 22475,
+  "length_scale": 50.0,
+  "maximum_distance": 150.0,
+  "minimum_distance": 2.0,
+  "maximum_neighbors": 9999,
+  "target_block_size": 512,
+  "top_k_sources": 8,
+  "receiver_field_mask": {
+    "mode": "hard_expression_exclusion",
+    "expression_threshold": 0.0
+  },
+  "receiver_group_clustering_method": "truncated_whitened_pca_kmeans",
+  "receiver_group_pca_components": 16
+}
