@@ -29,4 +29,4 @@ cargo build --release --locked --no-default-features --features cuda
 | `evaluate_synthetic_recovery` | `target/release/evaluate_synthetic_recovery ROOT OUTPUT MASK_MODE EXPRESSION_THRESHOLD` | Synthetic data and checkpoints | Recovery scores and relation ranks |
 | `benchmark_model_components` | `target/release/benchmark_model_components ROOT OUTPUT MASK_MODE EXPRESSION_THRESHOLD SEED_START SEED_END` | Synthetic data and checkpoints | Component benchmark metrics |
 
-Dataset workflows: [synthetic](experiments/synthetic/README.md), [external-method benchmark](experiments/benchmark/README.md), [spatial CRISPR](experiments/crispr/README.md), [Xenium liver](experiments/xenium/README.md), and [Slide-seqV2 hippocampus](experiments/slideseqv2/README.md).
+Dataset workflows: [synthetic](experiments/synthetic/README.md), [external-method benchmark](experiments/benchmark/README.md), [spatial CRISPR](experiments/crispr/README.md), [Xenium liver](experiments/xenium/README.md), [Slide-seqV2 hippocampus](experiments/slideseqv2/README.md), and [MOSTA mouse organogenesis](experiments/mosta/README.md).

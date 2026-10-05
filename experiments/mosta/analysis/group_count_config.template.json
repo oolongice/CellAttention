@@ -1,0 +1,30 @@
+{
+  "dataset": "mosta",
+  "checkpoint_dir": "${WORKDIR}/model/transformer",
+  "coordinates": "${WORKDIR}/data/preprocessed/spatial_coordinates.csv",
+  "output_dir": "${WORKDIR}/analysis/receiver_group_count_selection/results",
+  "embedding_dimensions": 48,
+  "maximum_selection_cells": 60000,
+  "length_scale": 50.0,
+  "maximum_distance": 150.0,
+  "minimum_distance": 2.0,
+  "maximum_neighbors": 9999,
+  "target_block_size": 512,
+  "top_k_sources": 8,
+  "candidates": [
+    1,
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    16
+  ],
+  "spatial_folds": 5,
+  "spatial_block_width": 240.0,
+  "kmeans_restarts": 8,
+  "kmeans_iterations": 100,
+  "seed": 20260812,
+  "receiver_group_clustering_method": "truncated_whitened_pca_kmeans"
+}

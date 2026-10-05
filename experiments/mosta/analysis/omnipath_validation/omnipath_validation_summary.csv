@@ -1,0 +1,29 @@
+organism,ligand,model_target,support_class,receptor,path_hops,all_edges_referenced,path
+mouse,Wnt3a,Wnt1,short_path_includes_database_only_edge,Lrp5,3.0,False,Wnt3a -> Lrp5 -> Gsk3b -> Wnt1
+mouse,Wnt3a,Msx1,short_path_all_edges_referenced,Fzd1,5.0,True,Wnt3a -> Fzd1 -> Ctnnb1 -> Gli2 -> Foxe1 -> Msx1
+mouse,Wnt3a,Ttr,short_path_includes_database_only_edge,Fzd2,3.0,False,Wnt3a -> Fzd2 -> Srf -> Ttr
+mouse,Wnt3a,Dmrta2,short_path_all_edges_referenced,Lrp5,4.0,True,Wnt3a -> Lrp5 -> Gsk3b -> Foxp3 -> Dmrta2
+mouse,Wnt3a,Bmp7,short_path_all_edges_referenced,Fzd1,4.0,True,Wnt3a -> Fzd1 -> Ctnnb1 -> Ar -> Bmp7
+mouse,Wnt3a,Ptms,short_path_includes_database_only_edge,Fzd2,3.0,False,Wnt3a -> Fzd2 -> Srf -> Ptms
+mouse,Wnt3a,Olig3,short_path_all_edges_referenced,Lrp5,4.0,True,Wnt3a -> Lrp5 -> Gsk3b -> Foxp3 -> Olig3
+mouse,Shh,Foxa2,short_path_includes_database_only_edge,Cdon,3.0,False,Shh -> Cdon -> Gli2 -> Foxa2
+mouse,Shh,Nkx2-4,short_path_all_edges_referenced,Cdon,5.0,True,Shh -> Cdon -> Abl1 -> Kat5 -> Foxp3 -> Nkx2-4
+mouse,Shh,Sox3,not_found_within_6_hops,,,False,
+mouse,Shh,Nkx2-1,short_path_all_edges_referenced,Cdon,4.0,True,Shh -> Cdon -> Abl1 -> Foxa1 -> Nkx2-1
+mouse,Shh,Foxa1,short_path_all_edges_referenced,Cdon,3.0,True,Shh -> Cdon -> Abl1 -> Foxa1
+mouse,Shh,Six3,short_path_all_edges_referenced,Cdon,4.0,True,Shh -> Cdon -> Mapk14 -> Mta1 -> Six3
+mouse,Shh,Ptch1,direct,Ptch1,1.0,True,Shh -> Ptch1
+human,Wnt3a,Wnt1,short_path_includes_database_only_edge,LRP5,3.0,False,WNT3A -> LRP5 -> GSK3B -> WNT1
+human,Wnt3a,Msx1,short_path_all_edges_referenced,FZD1,5.0,True,WNT3A -> FZD1 -> CTNNB1 -> GLI2 -> FOXE1 -> MSX1
+human,Wnt3a,Ttr,short_path_includes_database_only_edge,FZD1,3.0,False,WNT3A -> FZD1 -> HNF1A -> TTR
+human,Wnt3a,Dmrta2,short_path_all_edges_referenced,LRP5,4.0,True,WNT3A -> LRP5 -> GSK3B -> FOXP3 -> DMRTA2
+human,Wnt3a,Bmp7,short_path_all_edges_referenced,FZD1,4.0,True,WNT3A -> FZD1 -> CTNNB1 -> AR -> BMP7
+human,Wnt3a,Ptms,short_path_includes_database_only_edge,FZD2,3.0,False,WNT3A -> FZD2 -> SRF -> PTMS
+human,Wnt3a,Olig3,short_path_all_edges_referenced,LRP5,4.0,True,WNT3A -> LRP5 -> GSK3B -> FOXP3 -> OLIG3
+human,Shh,Foxa2,short_path_includes_database_only_edge,CDON,3.0,False,SHH -> CDON -> GLI2 -> FOXA2
+human,Shh,Nkx2-4,short_path_all_edges_referenced,CDON,5.0,True,SHH -> CDON -> ABL1 -> KAT5 -> FOXP3 -> NKX2-4
+human,Shh,Sox3,short_path_all_edges_referenced,CDON,4.0,True,SHH -> CDON -> ABL1 -> ESR1 -> SOX3
+human,Shh,Nkx2-1,short_path_all_edges_referenced,CDON,4.0,True,SHH -> CDON -> ABL1 -> FOXA1 -> NKX2-1
+human,Shh,Foxa1,short_path_all_edges_referenced,CDON,3.0,True,SHH -> CDON -> ABL1 -> FOXA1
+human,Shh,Six3,short_path_all_edges_referenced,CDON,4.0,True,SHH -> CDON -> MAPK14 -> MTA1 -> SIX3
+human,Shh,Ptch1,direct,PTCH1,1.0,True,SHH -> PTCH1
