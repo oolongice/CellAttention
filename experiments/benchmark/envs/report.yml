@@ -1,0 +1,8 @@
+name: cellattention-benchmark-report
+channels: [conda-forge]
+dependencies:
+  - python=3.11
+  - numpy=2.1
+  - pandas=2.2
+  - matplotlib=3.9
+  - seaborn=0.13

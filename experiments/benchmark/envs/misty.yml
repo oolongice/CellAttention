@@ -1,0 +1,8 @@
+name: cellattention-benchmark-misty
+channels: [conda-forge, bioconda]
+dependencies:
+  - r-base=4.5
+  - bioconductor-mistyr=1.18
+  - r-data.table
+  - r-jsonlite
+  - r-optparse

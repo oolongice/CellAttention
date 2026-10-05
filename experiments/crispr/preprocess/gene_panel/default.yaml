@@ -1,0 +1,58 @@
+seed: 2026
+panel_size: 500
+fields:
+  training_region_column: control_training_shapes
+  perturbation_column: target_gene
+  celltype_column: cell_annotation
+  sample_column: null
+  non_target_labels: [non-targeting]
+  unperturbed_labels: [none]
+  raw_layer: null
+  normalized_layer: null
+thresholds:
+  general_min_detection_rate: 0.01
+  article_anchor_min_detection_rate: 0.005
+  relevant_min_detection_rate: 0.01
+  relevant_min_detected_cells: 10
+  relevant_marker_min_detection_rate: 0.02
+  relevant_marker_min_detected_cells: 5
+  multi_axis_override_global_detection: 0.002
+  multi_axis_override_min_detected_cells: 5
+  marker_min_detection_rate_in_annotated_celltype: 0.03
+  source_min_detection_rate_in_any_source_celltype: 0.05
+  target_min_detection_rate_in_any_immune_celltype: 0.03
+  min_cells_per_type_variability: 30
+  allow_ultra_sparse_anchors: false
+  exclude_predicted_gm: true
+  exclude_rik: true
+quotas:
+  article: 70
+  marker: 110
+  source: 120
+  target: 120
+  data_driven: 60
+  stable_negative: 20
+constraints:
+  direct_communication: 1
+  marker_each_present_type: 5
+  marker_T_NK: 10
+  marker_Macrophage_Monocyte: 10
+  marker_Tumor_Epithelial: 8
+  diffusible_source: 40
+  source_total: 80
+  target_total: 80
+  ifn_response: 10
+  exhaustion: 6
+  memory_stemness: 6
+  migration: 6
+  stable_negative: 20
+weights:
+  data_specificity: 0.35
+  data_variability: 0.25
+  data_detection: 0.20
+  data_spatial: 0.20
+limits:
+  cell_cycle: 15
+  collagen_ecm: 20
+  correlation_threshold: 0.90
+  correlation_top_n: 80

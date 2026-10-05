@@ -1,0 +1,10 @@
+name: cellattention-benchmark-commot
+channels: [conda-forge]
+dependencies:
+  - python=3.10
+  - pip
+  - numpy<2
+  - pandas<2.2
+  - scipy<1.12
+  - pip:
+      - commot==0.0.3

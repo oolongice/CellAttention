@@ -1,0 +1,11 @@
+name: cellattention-benchmark-holonet
+channels: [conda-forge]
+dependencies:
+  - python=3.10
+  - pip
+  - numpy<2
+  - pandas<2.2
+  - pytorch=2.4=cpu*
+  - scikit-learn=1.7.2
+  - pip:
+      - HoloNet==0.1.0

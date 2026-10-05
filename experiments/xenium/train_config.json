@@ -1,0 +1,27 @@
+{
+  "expression_matrix": ".local/xenium/data/preprocessed/expression.mtx",
+  "cell_ids": ".local/xenium/data/preprocessed/cell_ids.txt",
+  "gene_ids": ".local/xenium/data/preprocessed/gene_ids.txt",
+  "sample_ids": ".local/xenium/data/preprocessed/sample_ids.txt",
+  "output_dir": ".local/xenium/model/transformer",
+  "device_index": 0,
+  "model": {
+    "d_model": 48,
+    "d_ff": 96,
+    "n_heads": 4,
+    "n_layers": 2,
+    "dropout": 0.05
+  },
+  "training": {
+    "epochs": 200,
+    "batch_size": 1024,
+    "learning_rate": 0.001,
+    "mask_probability": 0.25,
+    "seed": 168,
+    "shuffle": true,
+    "inference_mask_chunk_size": 32,
+    "max_cells_per_epoch": 32768,
+    "epoch_sampling": "stratified",
+    "minimum_cells_per_sample": 1000
+  }
+}
