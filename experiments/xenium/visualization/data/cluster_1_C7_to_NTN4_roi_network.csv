@@ -1,0 +1,4 @@
+sender_cell_type,source_gene,target_gene,receiver_cell_type,roi_influence_sum,supported_receiver_cells,anchor_receiver_cells,signed_beta,focal,roi_edge_count
+Fibroblast/Myofibroblast,C7,NTN4,Cholangiocyte,0.3636719395,7,13,0.11726544,True,15
+Fibroblast/Myofibroblast,FHL2,NTN4,Cholangiocyte,0.5364623783,8,13,0.10970986,False,19
+Fibroblast/Myofibroblast,SRPX,NTN4,Cholangiocyte,0.3207148942,10,13,0.08773623,False,13

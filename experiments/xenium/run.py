@@ -11,7 +11,7 @@ import sys
 
 CODE = Path(__file__).resolve().parent
 ROOT = CODE.parents[1]
-STAGES = ("prepare", "annotate", "train", "analyze", "summarize")
+STAGES = ("prepare", "annotate", "train", "analyze", "summarize", "plot")
 RAW_FILES = ("cell_name.txt", "gene_list.txt", "annotation.csv", "gene_expression.npz", "spatial_coordinates.npy")
 
 
@@ -135,6 +135,11 @@ def summarize(args: argparse.Namespace) -> None:
     print(f"analysis results: {args.workdir / 'analysis/results'}")
 
 
+def plot(args: argparse.Namespace) -> None:
+    run([args.python, str(CODE / "visualization/plot_roi_examples.py"),
+         "--workdir", str(args.workdir)])
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("stage", choices=(*STAGES, "all"))
@@ -152,7 +157,11 @@ def main() -> None:
     args.raw_dir = args.raw_dir.expanduser().resolve() if args.raw_dir else None
     args.checkpoint_dir = args.checkpoint_dir.expanduser().resolve() if args.checkpoint_dir else None
     args.workdir.mkdir(parents=True, exist_ok=True)
-    stages = ("prepare", "annotate", "analyze") if args.stage == "all" and args.checkpoint_dir else (STAGES[:4] if args.stage == "all" else (args.stage,))
+    if args.stage == "all":
+        stages = ("prepare", "annotate", "analyze", "plot") if args.checkpoint_dir else (
+            "prepare", "annotate", "train", "analyze", "plot")
+    else:
+        stages = (args.stage,)
     for stage in stages:
         print(f"stage={stage}", flush=True)
         globals()[stage](args)

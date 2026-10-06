@@ -86,7 +86,7 @@ Set `embedding_dimensions` to the model's `d_model`. Choose the spatial distance
 | `validate_selected_triplets` | `target/release/validate_selected_triplets CONFIG.json` | Spatial holdout and stability results for selected relations |
 | `export_checkpoint_matrices` | `target/release/export_checkpoint_matrices TRAIN_CONFIG.json CHECKPOINT_DIR --inputs-only` | Regenerate `raw_expression.csv` and `standardized_expression.csv` from the preprocessed matrix |
 
-Omit `--inputs-only` to also infer `reconstruction.csv`, `residuals.csv`, and `cell_embeddings.csv` from `model.mpk`. Existing CSV files in the checkpoint directory are kept.
+Omit `--inputs-only` to also infer `reconstruction.csv`, `residuals.csv`, and `cell_embeddings.csv` from `model.mpk`.
 
 ## Reproduction data
 

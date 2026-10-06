@@ -8,18 +8,19 @@ From the repository root:
 
 ```bash
 python3 -m venv .local/merfish-venv
-.local/merfish-venv/bin/python -m pip install -r experiments/merfish/requirements.txt
-.local/merfish-venv/bin/python experiments/merfish/run.py all \
+source .local/merfish-venv/bin/activate
+python -m pip install -r experiments/merfish/requirements.txt
+python experiments/merfish/run.py all \
   --archive /path/to/doi_10_5061_dryad_j0zpc86v9__v20251211.zip
 ```
 
-Place `arial.ttf`, `arialbd.ttf`, `ariali.ttf`, and `arialbi.ttf` in `.local/merfish/font/`. The 3D plots use software rendering through OSMesa. Training uses the original CUDA configuration: 300 epochs, seed 168, and device index 1. Use `--device-index 0` for device 0, or `--cpu` for CPU training. To reuse a matching checkpoint with `all`, pass `--checkpoint-dir /path/to/model/transformer`.
+The 3D plots use OSMesa. Training uses 300 epochs, seed 168, and device index 1. Use `--device-index 0` to select device 0, or `--cpu` for CPU training. To use a trained model, add `--checkpoint-dir /path/to/model/transformer`.
 
 Run `prepare`, `train`, `groups`, `analyze`, `edges`, or `plot` separately in place of `all`. Individual figure stages are `plot-landscape`, `plot-supp`, `plot-cells`, `plot-pairs`, and `plot-vectors`.
 
 ## Output
 
-All generated data, checkpoints, figures, and logs go to `.local/merfish/`.
+Generated files go to `.local/merfish/`.
 
 | Stage | Output |
 | --- | --- |
@@ -31,3 +32,35 @@ All generated data, checkpoints, figures, and logs go to `.local/merfish/`.
 | `plot` | Figure input tables in `visualization/data/`; figures in `visualization/figures/` and `visualization/supp_figures/` |
 
 `plot` writes the annotation and module views to `figures/cells_3d/`, the 24 pair views to `figures/directional_pairs_3d/`, the 24 arrow-field views to `figures/directional_pair_vector_fields_3d/`, the target program to `figures/cluster_target_landscape.png`, and the supplementary ranking to `supp_figures/`.
+
+## Example figures
+
+**3D cell annotations and CCC modules**
+
+![MERFISH 3D cell annotations and CCC modules](assets/annotation_and_clusters_3d.png)
+
+Run from the repository root after `analyze`; this writes `.local/merfish/visualization/figures/cells_3d/annotation_and_clusters_3d.png`:
+
+```bash
+python experiments/merfish/run.py plot-cells
+```
+
+**CCC-module target programs**
+
+![MERFISH target landscape](assets/cluster_target_landscape.png)
+
+Run `plot-landscape` after `analyze`; this writes `.local/merfish/visualization/figures/cluster_target_landscape.png`:
+
+```bash
+python experiments/merfish/run.py plot-landscape
+```
+
+**3D local cell–cell interaction direction field**
+
+![MERFISH 3D direction field for Six4a to Cdx4](assets/cluster_1_six4a_to_cdx4_local_cci_directions_3d.png)
+
+Run from the repository root after `edges`; this writes `.local/merfish/visualization/figures/directional_pair_vector_fields_3d/cluster_1/cluster_1_six4a_to_cdx4_local_cci_directions_3d.png`:
+
+```bash
+python experiments/merfish/run.py plot-vectors
+```
